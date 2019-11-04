@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<style>
+		body {
+			margin: 0;
+		}
+
+		.nav {
+			height: 70px;
+			border-bottom: 1px solid white;
+			display: flex;
+			align-items: center;
+		}
+
+		.nav-right-items {
+			display: flex;
+			margin-left: auto;
+		}
+
+		.nav-item {
+			margin-left: 10px
+		}
+
+		.title {
+			text-align: center;
+			font-size: 60px;
+			font-weight: bold;
+		}
+
+		.subtitle {
+			text-align: center;
+			font-size: 30px;
+			font-weight: 300;
+			margin-top: 15px;
+		}
+
+		.main {
+			width: 1000px;
+			margin: 0 auto;
+			margin-top: 60px;
+		}
+
+		.boxes {
+			display: flex;
+		}
+
+
+		.box-item {
+			width: 300px;
+			height: 300px;
+			border: 5px solid black;
+			margin: 30px;
+			border-radius: 4px;
+			text-align: center;
+			margin-top: 45px;
+			border-color: pink;
+		}
+
+		.box-item-title {
+			font-size: 2rem;
+			font-weight: bold;
+			color: white;
+			background: pink;
+			text-align: center;
+			height: 53px;
+			line-height: 53px;
+			border-bottom: 1px white;
+		}
+
+		.box-item-subtitle {
+			font-size: 1.8rem;
+			padding: 25px;
+
+		}
+
+		.box-item-button {
+			padding: .5rem 1rem;
+			font-size: 1.25rem;
+			line-height: 1.5;
+			border-radius: .3rem;
+			color: #f26b8a;
+			background-color: transparent;
+			background-image: none;
+			border-color: #f26b8a;
+			margin-top: 30px;		}
+
+		.box-item-button--active {
+			background-color: #fe7f9c;
+			color: white;
+		}
+
+		.nav-item-button {
+			padding: .5rem 1rem;
+			font-size: 1rem;
+      line-height: 1.5;
+			border-radius: .1rem;
+      color: #fe7f9c;
+			background-color: transparent;
+			background-image: none;
+      border: 2px solid black;
+      border-color: #fe7f9c;
+      margin-top: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="nav">
+		<div class="nav-right-items">
+			<div class="nav-item">
+				<button class="nav-item-button">
+            Youtube
+          </button>
+        </div>
+        <div class="nav-item">
+          <button class="nav-item-button">
+            GitHub
+          </button>
+        </div>
+        <div class="nav-item">
+          <button class="nav-item-button">
+            LinkedIn
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="title">
+        🄹🄴🄽🄽🅈 🄺🄸🄼
+      </div>
+      <div class="subtitle">
+        Reflective, relationship-oritented, and result-driven individual.
+      </div>
+      <div class="subtitle">
+         2017 UBC International Scholars Award Recipient.
+      </div>
+      <div class="boxes">
+        <div class="box-item">
+          <div class="box-item-title">
+           About Me
+          </div>
+          <div class="box-item-subtitle">
+            Hello Visitor!
+          </div>
+          <div class="box-item-detail">
+            Welcome stranger 😗
+          </div>
+          <div class="box-item-detail">
+            Lean who I am &
+          </div>
+          <div class="box-item-detail">
+           what my dreams are.
+          </div>
+          <button class="box-item-button">
+            ♥️
+          </button>
+        </div>
+        <div class="box-item">
+          <div class="box-item-title">
+           My Experiences
+          </div>
+          <div class="box-item-subtitle">
+            Are you hiring?
+          </div>
+          <div class="box-item-detail">
+            So glad you are here!
+          </div>
+          <div class="box-item-detail">
+            I am looking for
+          </div>
+          <div class="box-item-detail">
+            2020 Fall Internship..
+          </div>
+          <button class="box-item-button box-item-button--active">
+            Resume 📃
+          </button>
+        </div>
+        <div class="box-item">
+          <div class="box-item-title">
+           Past Projects
+          </div>
+          <div class="box-item-subtitle">
+            I can do it.
+          </div>
+          <div class="box-item-detail">
+            I code to become
+          </div>
+          <div class="box-item-detail">
+            an impactful developer
+          </div>
+          <div class="box-item-detail">
+            & influential minority.
+          </div>
+          <button class="box-item-button">
+            💻
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
